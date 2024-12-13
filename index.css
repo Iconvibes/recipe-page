@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Young Serif", serif;
+     ol li::marker{ color: hsl(15, 49%, 27%);
+        font-weight: bolder;}
+        ul li::marker{ color: hsl(15, 49%, 27%);
+        font-weight: bolder;}
+        tr > td {
+            border-style: dashed;
+        } 
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.container{
+    width: 40%;
+    margin: 0% auto;
+    padding: 3%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+.container >img{
+    width: 100%;
+    margin: 0% auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.dev{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin: 3% 0;    
+}
+.new{
+    font-family: serif;
+    font-weight: 100;
+    margin-bottom: 5%;
+}
+/* div{
+    margin: 7%;
+} */
+.mprep{
+    background-color: hsla(31, 53%, 90%, 0.39);
+    padding: 1%;
+    width: 100%;
+    margin: 5% auto;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+.prep{
+    color: hsl(332, 51%, 32%);
+    padding-left: 10px;
+}
+.list > li{
+    margin: 2% 0;
+    padding: 1% 0;
+}
+.ingre{
+    margin: 0 0;
+}
+.ingred{
+    color: hsl(15, 49%, 27%);
+    font-weight: 900;
+    font-size: bold;
+    margin: 3%;
+}
+.Ingre{
+    width: 100%;
+    margin: 2% auto;
+    margin-bottom:5%;
+}
+.ingrelist >li{
+    margin: 2%;
+}
+p{
+    text-align: left;
+    margin-left: 2%;
+    color: rgb(97, 92, 92);
+}
+.parag{
+    margin-bottom: 5%;
+}
+.ingres{
+    color: hsl(15, 49%, 27%);
+    font-weight: 900;
+    font-size: bold;
+    margin: 3%;
+}
+
+@media (min-width:1301px){
+    .container{
+        width: 35%;
+    }
+}
+@media (min-width:1200px) and (max-width:1300px){
+    .container{
+        width: 40%;
+    }
+}
+@media (min-width:1000px) and (max-width:1199px){
+    .container{
+        width: 36%;
+    }
+}
+@media (min-width:700px) and (max-width:999px){
+    .container{
+        width: 47%;
+    }
+}
+@media (min-width:450px) and (max-width:699px){
+    .container{
+        width: 60%;
+    }
+}
+@media (max-width:449px){
+    .container{
+        width: 95%;
+    }
+}
